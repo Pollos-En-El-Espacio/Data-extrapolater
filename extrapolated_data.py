@@ -1,6 +1,6 @@
 from openpyxl import Workbook, load_workbook
-import random
 from datetime import datetime,timedelta
+import random
 
 # Create a new workbook and set the active sheet
 wb = Workbook()
@@ -87,4 +87,4 @@ while not stop:
     time = time + timedelta(0, new_time_increase)
 
 # Save the workbook to a file
-wb.save("new_ting2.xlsx")
+wb.save("extrapolated_data.xlsx")
